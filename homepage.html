@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style_home.css">
+    <script src="index.js" charset="utf-8"></script>
   </head>
 
   <body class="body-public" style="" cz-shortcut-listen="true">
@@ -135,12 +136,12 @@
       }
     </style>
     <div id="segment-event" type="hidden" value="Submit Home Page Hero Form"></div>
-    <div class="hero-div" style="background-image: url(https://s3.amazonaws.com/cms-uploaded-images/nvpceaUsR6m0RayBroe6_homepage-hero.jpg);">
+    <div class="hero-div" style="background-image: url(images/oschool_banner.jpg);">
       <div class="container hero-container">
         <div class="row">
           <div class="col-xs-12 vertically-align-contents-except-xs">
             <div class="hero-text hero-text-left">
-              <h1>Create and sell beautiful online courses</h1>
+              <h1>Construisez votre futur carrière dans nos écoles</h1>
               <h2>Your skills and experiences are unique and valuable. Easily build a beautiful course website, share your knowledge, and be rewarded for it.</h2>
               <div class="input-container left">
                 <div class="hidden redirect">/create-account</div>
@@ -179,10 +180,10 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="default-header">Everything is Teachable</h1>
+          <h1 class="default-header">Pourquoi choisir Oschool</h1>
           <h1>
           </h1>
-          <h2 class="default-paragraph">Join the 68,000+ instructors who use Teachable to share their knowledge. Easily create an online course with our powerful yet simple all-in-one platform.</h2>
+          <h2 class="default-paragraph">Rejoignez les + 2 000 participant qui utilisent Oschool pour apprendre les compétences qu'il vous faut pour réussir votre carrière.</h2>
         </div>
       </div>
       <div class="row">
@@ -306,13 +307,13 @@
         <div class="col-md-1 hidden-sm hidden-xs"></div>
         <div class="col-xs-12 col-md-5 text-column vertically-align-contents match-height" style="height: 650px;">
           <div class="inner-text">
-            <h1 class="default-header ">Provide a world-class learning experience</h1>
+            <h1 class="default-header ">Construisez votre futur carrière dans nos écoles</h1>
             <p class="default-paragraph">Let Teachable do the heavy lifting so you can focus on what matters - creating courses with our user-friendly interface.</p>
             <div class="button-container">
               <svg class="play-button" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141 141" style="enable-background:new 0 0 141 141;" xml:space="preserve">
                 <style type="text/css">
                   .st0 {
-                    fill: #FF7F45;
+                    fill: #4d90cc;
                   }
 
                   .st1 {
@@ -518,11 +519,11 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h1 class="default-green-header ">Effortless setup</h1>
+            <h1 class="default-green-header ">Ecole de Programmation</h1>
             <div class="default-paragraph-container default-paragraph-spacing markdown-area ">
-              <p>With just a few clicks, you’ll get a fully functioning school with learning management, payment gateways, and sales &amp; marketing tools.</p>
+              <p>En quelques clics, vous obtiendrez une école entièrement fonctionnelle avec des outils de gestion de l’apprentissage, des passerelles de paiement et des outils de vente et de marketing.</p>
             </div>
-            <h1 class="default-green-header ">Exceptional learning experience</h1>
+            <h1 class="default-green-header ">Ecole du Web Marketing</h1>
             <div class="default-paragraph-container default-paragraph-spacing markdown-area ">
               <p>Your content is your greatest asset. Take it to the next level with Teachable’s top-notch virtual classroom experience.</p>
             </div>
@@ -539,11 +540,11 @@
       <div class="row">
         <div class="col-md-7 left-column match-height" style="height: 614px;">
           <div class="text">
-            <h1 class="default-green-header">Effortless setup</h1>
+            <h1 class="default-green-header">Ecole de Programmation</h1>
             <div class="default-paragraph-container markdown-area">
               <p>With just a few clicks, you’ll get a fully functioning school with learning management, payment gateways, and sales &amp; marketing tools.</p>
             </div>
-            <h1 class="default-green-header">Exceptional learning experience</h1>
+            <h1 class="default-green-header">Ecole du Web Marketing</h1>
             <div class="default-paragraph-container markdown-area">
               <p>Your content is your greatest asset. Take it to the next level with Teachable’s top-notch virtual classroom experience.</p>
             </div>
@@ -553,7 +554,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-md-5 right-column match-height clearfix" style="height: 614px;">
+        <div class="col-xs-12 col-md-5 right-column match-height clearfix" style="height: 720px;">
           <div class="image" style="background-image: url(https://process.filestackapi.com/AtM7HNKzQZ6u2HxwJF1Jiz/compress/quality=value:90/0tTy4z3lTbCkw18ehjQ8);"></div>
           <div class="quote">
             <img class="orange-circle" src="https://teachable.com/assets/blockquote-orange-d24380ebe646a526fc1fa70b279fa6531394ee3ddc19bf7bca406c709a6f08f3.svg">
@@ -588,34 +589,34 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="default-header">Share your knowledge in five simple steps</h1>
+          <h1 class="default-header">Apprenez les compétences qu'il vous faut pour réussir votre carrière</h1>
           <ul class="steps-nav">
             <div class="line"></div>
-            <li class="steps" data-step="1">
+            <li class="steps" data-step="1" onclick="openCity(event, 'step1')" id="defaultOpen">
               <a href="#step1" data-scroll="false">
                 <h2>1</h2>
-                <p>Create a course for free</p>
+                <p>Projets de la vie réelle conçus par des experts de l'industrie</p>
               </a>
             </li>
-            <li class="steps" data-step="2">
+            <li class="steps" data-step="2" onclick="openCity(event, 'step2')">
               <a href="#step2" data-scroll="false">
                 <h2>2</h2>
-                <p>Upload your content</p>
+                <p>Mentorat</p>
               </a>
             </li>
-            <li class="steps" data-step="3">
+            <li class="steps" data-step="3" onclick="openCity(event, 'step3')">
               <a href="#step3" data-scroll="false">
                 <h2>3</h2>
-                <p>Make your school beautiful</p>
+                <p>Programme d'apprentissage flexible</p>
               </a>
             </li>
-            <li class="steps" data-step="4">
+            <li class="steps" data-step="4" onclick="openCity(event, 'step4')">
               <a href="#step4" data-scroll="false">
                 <h2>4</h2>
-                <p>Engage your students</p>
+                <p>Accompagnement à l'emploi</p>
               </a>
             </li>
-            <li class="steps active" data-step="5">
+            <li class="steps" data-step="5" onclick="openCity(event, 'step5')">
               <a href="#step5" data-scroll="false">
                 <h2>5</h2>
                 <p>Share knowledge and be rewarded</p>
@@ -624,47 +625,47 @@
           </ul>
         </div>
       </div>
-      <div class="row second-row" data-step="1">
+      <div class="row second-row" data-step="1" id="step1">
         <div class="col-md-7 image-column">
           <img src="https://teachable.com/assets/five-steps/step1-3fd2c54b7e72864447f8592b46ffed7927760eeb11ca09a77b9b3a7426a76b29.svg">
         </div>
         <div class="col-md-5">
-          <h1 class="default-header">Create a course for free in minutes with Teachable</h1>
-          <p class="default-paragraph">Get started with just your email and the name of your school. It’s as simple as that -- no payments or credit card information required.</p>
+          <h1 class="default-header">Projets de la vie réelle conçus par des experts de l'industrie</h1>
+          <p class="default-paragraph">Avec des projets du monde réel construits en partenariat avec des experts du secteur, vous serez en mesure de constituer un portefeuille prêt à l'emploi, et directement utilisable par les entreprises.</p>
           <a class="next-step green-button">Next step&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</a>
         </div>
       </div>
-      <div class="row second-row" data-step="2">
+      <div class="row second-row" data-step="2" id="step2">
         <div class="col-md-7 image-column">
           <img src="https://teachable.com/assets/five-steps/step2-ca89a5b5172f4db76cdc855c5f9f8f0915f0ec6f08e26fc509a027f4439c4022.svg">
         </div>
         <div class="col-md-5">
-          <h1 class="default-header">Access everything you need to build rich, interactive lectures</h1>
-          <p class="default-paragraph">Seamlessly upload videos, audio, presentations, images, and text. Effortlessly create quizzes and start discussion forums.</p>
+          <h1 class="default-header">Mentorat</h1>
+          <p class="default-paragraph">Obtenez un mentor compétent qui oriente votre apprentissage et qui se concentre sur les réponses à vos questions, vous motive et vous garde sur la bonne voie.</p>
           <a class="next-step green-button">Next step&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</a>
         </div>
       </div>
-      <div class="row second-row" data-step="3">
+      <div class="row second-row" data-step="3" id="step3">
         <div class="col-md-7 image-column">
           <img src="https://teachable.com/assets/five-steps/step3-8f437aa13e47280d12ebc583e8f93dc75924ec2c796d7972c02e2f87bc3737ff.svg">
         </div>
         <div class="col-md-5">
-          <h1 class="default-header">Showcase a stunning school with your own branding</h1>
-          <p class="default-paragraph">Tailor the look and feel of your school to make it your own -- no coding skills required. Leverage our beautiful design to present a captivating course website.</p>
+          <h1 class="default-header">Programme d'apprentissage flexible</h1>
+          <p class="default-paragraph">Obtenez un plan d'apprentissage personnalisé sur mesure pour votre vie bien remplie. Avec des paiements mensuels faciles, vous pouvez apprendre à votre rythme et atteindre vos objectifs personnels.</p>
           <a class="next-step green-button">Next step&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</a>
         </div>
       </div>
-      <div class="row second-row" data-step="4">
+      <div class="row second-row" data-step="4" id="step4">
         <div class="col-md-7 image-column">
           <img src="https://teachable.com/assets/five-steps/step4-7c0f831a75108d29133c05c3c702da22ba47e389e582fa333d64101d7aac8ce6.svg">
         </div>
         <div class="col-md-5">
-          <h1 class="default-header">Build a vibrant community around your school</h1>
-          <p class="default-paragraph">Impress your students with a world-class online course experience. Nurture your community using our ready-to-go comment and email system.</p>
+          <h1 class="default-header">Accompagnement à l'emploi</h1>
+          <p class="default-paragraph">Vous aurez accès à des sessions de coaching en carrière, à des conseils de préparation aux entretiens, à des résumés de CV et à des critiques de profils professionnels en ligne pour vous aider à progresser dans votre carrière.</p>
           <a class="next-step green-button">Next step&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</a>
         </div>
       </div>
-      <div class="row second-row active" data-step="5">
+      <div class="row second-row" data-step="5" id="step5">
         <div class="col-md-7 image-column">
           <img src="https://teachable.com/assets/five-steps/step5-675f78f2901de7b19928570ae8cff205a4b34dc3c38e72adb8aad9b5a8bef953.svg">
         </div>
@@ -697,8 +698,8 @@
     </style>
     <div class="container-fluid">
       <div class="row">
-        <h1 class="default-header">The most gorgeous online schools are built on Teachable</h1>
-        <p class="default-paragraph subheader">Take your content to the next level by packaging it in a beautiful, professional, and fully personalized online school</p>
+        <h1 class="default-header">Les plus belles écoles en ligne sont construites sur Oschool</h1>
+        <p class="default-paragraph subheader">Apprenez les compétences qu'il vous faut pour réussir votre carrière</p>
       </div>
       <div class="slider-parent">
         <div class="slider homepage-slider slick-initialized slick-slider"><button type="button" class="slick-prev slick-arrow" style="display: block;">‹</button>
@@ -830,14 +831,16 @@
       </div>
       <div class="row last-row">
         <div class="col-xs-12">
-          <a href="/features" class="dark-green-button">More features</a>
-          <p class="default-paragraph">Market leaders use Teachable to enrich their brand &amp; business.</p>
+          <h1>Des doutes ? Laissez-vous convaincre par nos MOOC</h1>
+          <a href="/features" class="dark-green-button">Tous nos cours</a>
+          <p class="default-paragraph">En collaboration avec les leaders de l'industrie</p>
           <div class="clearfix company-logos">
-            <img src="https://teachable.com/assets/showcase/logo1-492edcd6564167cc91a0162d028da0669ae87f2959ccf683b78b4a176e9338c4.png">
-            <img src="https://teachable.com/assets/showcase/logo2-d60d37fa3443fe00a9e47bc2c42a43799a0faf2f1f1d81b9f9441bcb77d17e60.png">
-            <img src="https://teachable.com/assets/showcase/logo3-459469bb472753db1c99486b03df57852e15959cc830efe60d984db56f171f9c.png">
-            <img src="https://teachable.com/assets/showcase/logo-pearson-42979f87ef26b43c43d1696ea250245731ebc4fecf738c3b0442bdec64a2475f.svg">
-            <img src="https://teachable.com/assets/showcase/logo5-522181dfddb7bfe3ab06b9b76d635dbb46fd77748a9b14a850a1cc6b0290bc60.png">
+            <img src="images/cinetpay-460x117.png">
+            <img src="images/Epistrophe.jpg">
+            <img src="images/final_SECURITY_LOGO-460x84.png">
+            <img src="images/Logo_BoraDigital_250-1.png">
+            <img src="images/LogoM-1.png">
+            <img src="images/Logo-1.png">
           </div>
 
         </div>
@@ -974,9 +977,9 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="small-uppercase-text">WHAT ARE YOU WAITING FOR?</h1>
-          <h2 class="default-header" style="max-width: 750px">Join thousands of creators making a difference every day using Teachable</h2>
-          <a href="/create-account?utm_source=home-testimonial" class="orange-button">Get started for free</a>
+          <h1 class="small-uppercase-text">QUELLE FORMATION VOULEZ VOUS FAIRE?</h1>
+          <h2 class="default-header" style="max-width: 750px">Choisissez Votre parcours de formation</h2>
+          <a href="/create-account?utm_source=home-testimonial" class="orange-button">Nos parcours</a>
         </div>
       </div>
     </div>
@@ -1035,7 +1038,7 @@
       }
     </style>
     <div class="container">
-      <h1 class="default-header">Your success is our success</h1>
+      <h1 class="default-header">Votre succès est notre succès</h1>
       <p class="default-paragraph">Our diverse team of professionals shares a passion for online education. We tirelessly work to improve our product, content, and community to help you achieve your goals.</p>
     </div>
     <div class="container-fluid">
@@ -1191,7 +1194,7 @@
 
 
   <div>
-    
+
 </body>
 
 </html>
